@@ -27,6 +27,4 @@ def emotion_detector(text_to_analyze):
 
     # return formatted response
     print(display_response_format)
-    return formatted_response
-
-emotion_detector("I hate working long hours")
+    return display_response_format
